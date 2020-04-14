@@ -5,10 +5,9 @@ from bs4 import BeautifulSoup
 
 class scraper(object):
     @staticmethod
-    def scrape():
+    def scrape(boards = ['a', 'b', 'vg', 'c', 'r9k', 'mlp', 'wsg']):
         image_list = []
         thread_list = []
-        boards = ['a', 'b', 'vg', 'c', 'r9k', 'mlp', 'wsg']
         board = random.choice(boards)
         board_url = 'https://boards.4channel.org/%s' %board
         page = requests.get(board_url)
