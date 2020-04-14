@@ -5,7 +5,7 @@ this discord bot scrapes random images out of N 4chan boards & N threads then du
 ## Installation
 Your python env must satisfy the dependencies in `requirements.txt`, if you're using anaconda you can automatically create an env with all the correct deps using the included yml env configurator.   
 
-`conda create env -f shitpostbot_env.yml`
+`conda env create -f shitpostbot_env.yml`
 
 this will automatically create a `shitpost_bot` environment, which you can activate with   
 
