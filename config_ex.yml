@@ -1,0 +1,13 @@
+bot:
+    channelid: my_channel_id
+    token: token
+chan:
+    boards:
+        - a
+        - b
+        - c
+        - vg
+        - c
+        - r9k
+        - mlp
+        - wsg
