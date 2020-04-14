@@ -1,0 +1,10 @@
+name: shitpost_bot
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7.6
+  - requests
+  - beautifulsoup4
+  - pip=20.0.2
+  - pip:
+    - discord.py
