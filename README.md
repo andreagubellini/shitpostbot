@@ -34,8 +34,11 @@ You have to fill in your channel's ID and your token.
 
 ## Usage
 To start your shitposting bot just type
+
 `python bot.py -f myconfig.yml`
+
 If you ever get confused about the arguments just type
+
 `python bot.py -h`
 
 Have a nice shitposting day and don't forget your oats.
