@@ -1,6 +1,6 @@
 # Discord shitposter
 
-this discord bot scrapes random images out of N 4chan boards & N threads then dumps either an img, webm or gif to your server.
+this discord bot scrapes randomly out of N 4chan boards & N threads then dumps either an img, webm or gif to your server.
 
 ## Installation
 Your python env must satisfy the dependencies in `requirements.txt`, if you're using anaconda you can automatically create an env with all the correct deps using the included yml env configurator.   
