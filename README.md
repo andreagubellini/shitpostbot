@@ -13,10 +13,10 @@ this will automatically create a `shitpost_bot` environment, which you can activ
 
 ## Configuration
 First you have to create your bot using Discord's developer applet, just follow this guide:  [really nice guide ](https://realpython.com/how-to-make-a-discord-bot-python/)
-You have to compile a `.yml` configuration file like the included `config_ex.yml`
+You have to compile a `.yml` configuration file like the included `config/config_ex.yml`
 ```
 bot:
-    channelid: my_channel_id
+    channelid: channel_id
     token: token
 chan:
     boards:
@@ -42,3 +42,8 @@ If you ever get confused about the arguments just type
 `python bot.py -h`
 
 Have a nice shitposting day and don't forget your oats.
+
+## Run with Docker
+To run the bot with docker, just change the config file name inside the Dockerfile then Build the image.
+Once the image is built, run the image with the given tag and you're ready to go.
+Example: `docker run shitpostbot:latest`

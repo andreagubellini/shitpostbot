@@ -1,5 +1,5 @@
 bot:
-    channelid: my_channel_id
+    channelid: channel_id
     token: token
 chan:
     boards:
